@@ -40,7 +40,7 @@ public class Parser {
 
                     boolean flag = false;
                     while(!flag){
-                        nextLine += fileToParse.inText.nextLine();
+                        nextLine += ("\n" +fileToParse.inText.nextLine());
                         if(fileToParse.inText.hasNext("Art.*"))
                             flag = true;
                     }
@@ -62,16 +62,18 @@ public class Parser {
 
                 }
                 else{
-                    newChapter.Articles.set(newChapter.Articles.size()-1,newChapter.Articles.getLast() + nextLine);
+                    newChapter.Articles.set(newChapter.Articles.size()-1,newChapter.Articles.getLast() +"\n" + nextLine);
                 }
 
             }
             else{
-                if(nextLine.matches("^skiej")) {
+                if(nextLine.matches("^skiej.")) {
                     firstPartSkip = false;
                 }
             }
 
         }
+        System.out.println(iter);
+        if(firstPartSkip == false) System.out.println("xD");
     }
 }
