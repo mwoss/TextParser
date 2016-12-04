@@ -65,7 +65,7 @@ public class Parser {
                 else{
                     if(dashFlag){
                         String[] parts = nextLine.split("\\s+");
-                        newChapter.Articles.set(newChapter.Articles.size()-1,newChapter.Articles.getLast() + parts[0]);
+                        newChapter.Articles.set(newChapter.Articles.size()-1,newChapter.Articles.getLast().substring(0,newChapter.Articles.getLast().length()-1) + parts[0]);
                         StringBuilder builder = new StringBuilder();
                         for(String s : parts) {
                             if(s == parts[0]) continue;
