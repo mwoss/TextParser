@@ -25,6 +25,7 @@ public class Parser {
         int numberOfChaspters = 0;
         int numberOfArt = 0;
         boolean flagArt = false;
+        boolean dashFlag = false;
 
         while(this.fileToParse.inText.hasNext()){
             iter++;
@@ -62,7 +63,31 @@ public class Parser {
 
                 }
                 else{
-                    newChapter.Articles.set(newChapter.Articles.size()-1,newChapter.Articles.getLast() +"\n" + nextLine);
+                    if(dashFlag){
+                        String[] parts = nextLine.split("\\s+");
+                        newChapter.Articles.set(newChapter.Articles.size()-1,newChapter.Articles.getLast() + parts[0]);
+                        StringBuilder builder = new StringBuilder();
+                        for(String s : parts) {
+                            if(s == parts[0]) continue;
+                            builder.append(s);
+                            if(s != parts[parts.length-1])
+                                builder.append(" ");
+                        }
+                        newChapter.Articles.set(newChapter.Articles.size()-1,newChapter.Articles.getLast() +"\n" + builder.toString());
+                        if(nextLine.endsWith("-")){
+                            dashFlag = true;
+                        }
+                        else{
+                            dashFlag = false;
+                        }
+                    }
+                    else{
+                        if(nextLine.endsWith("-")){
+                            dashFlag = true;
+                        }
+                        newChapter.Articles.set(newChapter.Articles.size()-1,newChapter.Articles.getLast() +"\n" + nextLine);
+                    }
+
                 }
 
             }
@@ -73,7 +98,6 @@ public class Parser {
             }
 
         }
-        System.out.println(iter);
-        if(firstPartSkip == false) System.out.println("xD");
+        this.chapters.add(newChapter);
     }
 }

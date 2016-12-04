@@ -19,4 +19,19 @@ public class TextOut implements ITextOut {
     public void writeChapter(int a) {
 
     }
+
+    @Override
+    public void writeArticleToTxt(int a) {
+
+    }
+
+    @Override
+    public void writeArticlesToTxt(int a, int b) {
+
+    }
+
+    @Override
+    public void writeChapterToTxt(int a) {
+
+    }
 }
