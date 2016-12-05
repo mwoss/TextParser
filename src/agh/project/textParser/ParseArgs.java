@@ -11,18 +11,22 @@ public class ParseArgs extends TextSystem{
 
     public boolean argTest(){
         if(arguments.length != 2 || arguments.length != 3){
-            throw new IllegalArgumentException("Inncorect numbers of argumnts");
+            throw new IllegalArgumentException("Incorrect numbers of arguments");
         }
         else{
             if(!arguments[0].endsWith(".txt")){
-                throw new IllegalArgumentException("Inncorect file extension");
+                throw new IllegalArgumentException("Incorrect file extension");
             }
-            else if(arguments.length != 3) {
-
+            else if(arguments.length == 2) {
+                if(!arguments[1].matches("[MDCLXVI]*") && !arguments[1].matches("^[0-9]+$")){
+                    throw new IllegalArgumentException("Incorrect chapter's or article's number");
+                }
             }
-            //else if( ){
-
-            //}
+            else{
+                if(!arguments[1].matches("^[0-9]+$") && !arguments[2].matches("^[0-9]+$")){
+                    throw new IllegalArgumentException("Argument - Range of articles, are incorrect");
+                }
+            }
         }
         return true;
 
