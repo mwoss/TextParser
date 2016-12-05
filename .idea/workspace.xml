@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cd9efeaf-7bc1-4c2d-a67a-1b796eb90afb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/agh/project/textParser/ParseArgs.java" afterPath="$PROJECT_DIR$/src/agh/project/textParser/ParseArgs.java" />
     </list>
     <ignored path="TextParaser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -596,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480891582683</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="parser works, i think so xD">
+      <created>1480901964155</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1480901964155</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
