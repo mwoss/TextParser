@@ -50,6 +50,7 @@ public class ParseArgs extends TextSystem{
 
     }
     public int getProcedure(){
+
         return procedure;
     }
 }
