@@ -10,6 +10,9 @@ public interface ITextOut {
     void writeArticles(int a, int b);
     //write whole chapter in console
     void writeChapter(int a);
+
+    //DONT KNOW IF IM GONNA IMPLEMENT BELOW METHODS
+
     //write a single article to txt file
     void writeArticleToTxt(int a);
     //write artivles in range (a,b) to txt file

@@ -6,6 +6,7 @@ package agh.project.textParser;
 public class ParseArgs extends TextSystem{
     private String[] arguments;
     public ParseArgs(String [] args){
+
         this.arguments = args;
     }
 

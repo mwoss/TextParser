@@ -10,7 +10,7 @@ public class TextSystem {
 
     public static void main (String[] args){
         try {
-            //ParseArgs argParsing = new ParseArgs(args); // Pastinng command line arg to check_class
+            //ParseArgs argParsing = new ParseArgs(args); // Passing command line arg to check_class
            /* if(argParsing.argTest()) {
                 String file = args[0];
                 Text x = new Text(file);
@@ -20,12 +20,14 @@ public class TextSystem {
             Text F = new Text(file);
             Parser parser = new Parser(F);
             parser.Parse();
-            for(Chapter iter : parser.chapters){
+            /*for(Chapter iter : parser.chapters){
                 System.out.println(iter.chapterTitle);
                 for(String iter2 : iter.Articles){
                     System.out.println(iter2);
                 }
-            }
+            }*/
+            TextOut out = new TextOut(parser);
+            out.writeChapter(3);
         }catch(FileNotFoundException x) {
             System.out.println(x.getMessage());
         }
