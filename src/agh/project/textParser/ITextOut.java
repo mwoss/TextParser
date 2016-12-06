@@ -4,6 +4,7 @@ package agh.project.textParser;
  * Created by Matthew on 2016-11-30.
  */
 public interface ITextOut {
+
     //write a single article in console
     void writeArticle(int a);
     //write artivles in range (a,b) in console

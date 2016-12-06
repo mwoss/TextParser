@@ -51,10 +51,10 @@ public class TextOut implements ITextOut{
     @Override
     public void writeChapter(int a) {
         int startCount = 1;
-        for(Chapter iter : parsedText.chapters){
-            if(startCount == a){
+        for (Chapter iter : parsedText.chapters) {
+            if (startCount == a) {
                 System.out.println(iter.chapterTitle);
-                for(String iter2 : iter.Articles){
+                for (String iter2 : iter.Articles) {
                     System.out.println(iter2);
                 }
                 break;

@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Text {
     public Scanner inText;
 
-    public Text(String path) throws FileNotFoundException{
+    public Text(String path) throws FileNotFoundException {
         this.inText = new Scanner(new FileReader(path));
 
     }

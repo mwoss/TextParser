@@ -20,12 +20,6 @@ public class TextSystem {
             Text F = new Text(file);
             Parser parser = new Parser(F);
             parser.Parse();
-            /*for(Chapter iter : parser.chapters){
-                System.out.println(iter.chapterTitle);
-                for(String iter2 : iter.Articles){
-                    System.out.println(iter2);
-                }
-            }*/
             TextOut out = new TextOut(parser);
             out.writeChapter(3);
         }catch(FileNotFoundException x) {
