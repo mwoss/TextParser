@@ -17,7 +17,6 @@ public class ParseArgs extends TextSystem{
         2 - write a chapter
         3 - write articles in certain range
     */
-
     public boolean argTest(){
         if(arguments.length != 2 && arguments.length != 3){
             throw new IllegalArgumentException("Incorrect numbers of arguments");
@@ -27,7 +26,7 @@ public class ParseArgs extends TextSystem{
                 throw new IllegalArgumentException("Incorrect file extension");
             }
             else if(arguments.length == 2) {
-                if(!arguments[1].matches("[MDCLXVImdclxvi]*") && !arguments[1].matches("^[0-9]+$")){
+                if(!arguments[1].matches("[MDCLXVImdclxvi]*") && !arguments[1].matches("^[0-9]+$" )){
                     throw new IllegalArgumentException("Incorrect chapter's or article's number");
                 }
                 else if(arguments[1].matches("^[0-9]+$")){
@@ -38,7 +37,7 @@ public class ParseArgs extends TextSystem{
                 }
             }
             else{
-                if(!arguments[1].matches("^[0-9]+$") && !arguments[2].matches("^[0-9]+$")){
+                if(!arguments[1].matches("^[0-9]+$") || !arguments[2].matches("^[0-9]+$")){
                     throw new IllegalArgumentException("Argument - Range of articles, are incorrect");
                 }
                 else{

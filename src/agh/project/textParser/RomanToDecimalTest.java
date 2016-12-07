@@ -15,6 +15,7 @@ public class RomanToDecimalTest {
 
     @Test
     public void processDecimal() throws Exception {
+        assertEquals(3, processDecimal(9,15,12));
 
     }
 

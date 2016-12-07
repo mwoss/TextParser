@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd9efeaf-7bc1-4c2d-a67a-1b796eb90afb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/agh/project/textParser/ParseArgsTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/agh/project/textParser/ParserTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/agh/project/textParser/RomanToDecimalTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/agh/project/textParser/TextOutTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TextParser.iml" afterPath="$PROJECT_DIR$/TextParser.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/agh/project/textParser/Parser.java" afterPath="$PROJECT_DIR$/src/agh/project/textParser/Parser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/agh/project/textParser/RomanToDecimal.java" afterPath="$PROJECT_DIR$/src/agh/project/textParser/RomanToDecimal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/agh/project/textParser/TextSystem.java" afterPath="$PROJECT_DIR$/src/agh/project/textParser/TextSystem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/agh/project/textParser/ParseArgs.java" afterPath="$PROJECT_DIR$/src/agh/project/textParser/ParseArgs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/agh/project/textParser/ParseArgsTest.java" afterPath="$PROJECT_DIR$/src/agh/project/textParser/ParseArgsTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/agh/project/textParser/ParserTest.java" afterPath="$PROJECT_DIR$/src/agh/project/textParser/ParserTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/agh/project/textParser/RomanToDecimalTest.java" afterPath="$PROJECT_DIR$/src/agh/project/textParser/RomanToDecimalTest.java" />
     </list>
     <ignored path="TextParaser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +30,7 @@
       <file leaf-file-name="Parser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/agh/project/textParser/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="737">
+            <state relative-caret-position="1394">
               <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
               <folding />
             </state>
@@ -54,8 +50,8 @@
       <file leaf-file-name="ParserTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/agh/project/textParser/ParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="170">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -64,18 +60,18 @@
       <file leaf-file-name="ParseArgs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/agh/project/textParser/ParseArgs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+            <state relative-caret-position="884">
+              <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParseArgsTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ParseArgsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/agh/project/textParser/ParseArgsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            <state relative-caret-position="425">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -84,17 +80,17 @@
       <file leaf-file-name="TextOut.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/agh/project/textParser/TextOut.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
+            <state relative-caret-position="567">
               <caret line="80" column="42" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RomanToDecimal.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RomanToDecimal.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/agh/project/textParser/RomanToDecimal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="-360">
               <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
               <folding />
             </state>
@@ -105,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/src/agh/project/textParser/RomanToDecimalTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,7 +110,7 @@
       <file leaf-file-name="TextOutTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/agh/project/textParser/TextOutTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
+            <state relative-caret-position="442">
               <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding />
             </state>
@@ -159,21 +155,20 @@
         <option value="$PROJECT_DIR$/src/agh/project/textParser/ITextOut.java" />
         <option value="$PROJECT_DIR$/src/agh/project/textParser/TextOut.java" />
         <option value="$PROJECT_DIR$/src/agh/project/textParser/TextOutTest.java" />
-        <option value="$PROJECT_DIR$/src/agh/project/textParser/ParserTest.java" />
         <option value="$PROJECT_DIR$/src/agh/project/textParser/RomanToDecimal.java" />
-        <option value="$PROJECT_DIR$/src/agh/project/textParser/RomanToDecimalTest.java" />
         <option value="$PROJECT_DIR$/src/agh/project/textParser/Parser.java" />
         <option value="$PROJECT_DIR$/src/agh/project/textParser/TextSystem.java" />
         <option value="$PROJECT_DIR$/src/agh/project/textParser/ParseArgs.java" />
         <option value="$PROJECT_DIR$/src/agh/project/textParser/ParseArgsTest.java" />
+        <option value="$PROJECT_DIR$/src/agh/project/textParser/ParserTest.java" />
+        <option value="$PROJECT_DIR$/src/agh/project/textParser/RomanToDecimalTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -200,8 +195,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -241,6 +234,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,7 +260,7 @@
       </extension>
       <option name="MAIN_CLASS_NAME" value="agh.project.textParser.TextSystem" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="konstytucja.txt 12 18" />
+      <option name="PROGRAM_PARAMETERS" value="konstytucja.txt 2 12" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -641,16 +636,41 @@
       <option name="project" value="LOCAL" />
       <updated>1481070027000</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="tests part 1 of many">
+      <created>1481079369277</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1481079369277</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="ParseArgsTest - 2016.12.07 at 03h 52m 15s.xml">
       <configuration name="ParseArgsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ParseArgsTest - 2016.12.07 at 15h 49m 27s.xml">
+      <configuration name="ParseArgsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParseArgsTest - 2016.12.07 at 16h 12m 59s.xml">
+      <configuration name="ParseArgsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParseArgsTest - 2016.12.07 at 16h 32m 35s.xml">
+      <configuration name="ParseArgsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParseArgsTest - 2016.12.07 at 16h 34m 42s.xml">
+      <configuration name="ParseArgsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParseArgsTest - 2016.12.07 at 16h 49m 55s.xml">
+      <configuration name="ParseArgsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParseArgsTest - 2016.12.07 at 16h 52m 29s.xml">
+      <configuration name="ParseArgsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -660,17 +680,17 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32599118" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.119936034" sideWeight="0.4589372" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.45261437" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39935064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.119936034" sideWeight="0.5410628" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39867842" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.54738563" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -701,7 +721,8 @@
     <MESSAGE value="arg parser return procedures, some fixes in code ble ble;&#10;going sleep lol" />
     <MESSAGE value="alomost done" />
     <MESSAGE value="still not implemented tests, messy code, exceptions&#10;but it works how it should" />
-    <option name="LAST_COMMIT_MESSAGE" value="still not implemented tests, messy code, exceptions&#10;but it works how it should" />
+    <MESSAGE value="tests part 1 of many" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests part 1 of many" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -740,57 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4352">
           <caret line="256" column="0" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39347#0" expanded="false" />
-            <element signature="e#8008#8009#0" expanded="false" />
-            <element signature="e#8036#8037#0" expanded="false" />
-            <element signature="e#8248#8249#0" expanded="false" />
-            <element signature="e#8275#8276#0" expanded="false" />
-            <element signature="e#8748#8749#0" expanded="false" />
-            <element signature="e#8787#8788#0" expanded="false" />
-            <element signature="e#8938#8939#0" expanded="false" />
-            <element signature="e#8965#8966#0" expanded="false" />
-            <element signature="e#11209#11210#0" expanded="false" />
-            <element signature="e#11247#11248#0" expanded="false" />
-            <element signature="e#15878#15879#0" expanded="false" />
-            <element signature="e#15927#15928#0" expanded="false" />
-            <element signature="e#16099#16100#0" expanded="false" />
-            <element signature="e#16149#16150#0" expanded="false" />
-            <element signature="e#16416#16417#0" expanded="false" />
-            <element signature="e#16470#16471#0" expanded="false" />
-            <element signature="e#19921#19922#0" expanded="false" />
-            <element signature="e#19954#19955#0" expanded="false" />
-            <element signature="e#20484#20485#0" expanded="false" />
-            <element signature="e#20520#20521#0" expanded="false" />
-            <element signature="e#20770#20771#0" expanded="false" />
-            <element signature="e#20799#20800#0" expanded="false" />
-            <element signature="e#23214#23215#0" expanded="false" />
-            <element signature="e#23241#23242#0" expanded="false" />
-            <element signature="e#23699#23700#0" expanded="false" />
-            <element signature="e#23735#23736#0" expanded="false" />
-            <element signature="e#24161#24162#0" expanded="false" />
-            <element signature="e#24193#24194#0" expanded="false" />
-            <element signature="e#26756#26757#0" expanded="false" />
-            <element signature="e#26803#26804#0" expanded="false" />
-            <element signature="e#27125#27126#0" expanded="false" />
-            <element signature="e#27169#27170#0" expanded="false" />
-            <element signature="e#27499#27500#0" expanded="false" />
-            <element signature="e#27539#27540#0" expanded="false" />
-            <element signature="e#27577#27578#0" expanded="false" />
-            <element signature="e#27621#27622#0" expanded="false" />
-            <element signature="e#29442#29443#0" expanded="false" />
-            <element signature="e#29489#29490#0" expanded="false" />
-            <element signature="e#29728#29729#0" expanded="false" />
-            <element signature="e#29776#29777#0" expanded="false" />
-            <element signature="e#29802#29803#0" expanded="false" />
-            <element signature="e#29847#29848#0" expanded="false" />
-            <element signature="e#29878#29879#0" expanded="false" />
-            <element signature="e#29914#29915#0" expanded="false" />
-            <element signature="e#36042#36043#0" expanded="false" />
-            <element signature="e#36098#36099#0" expanded="false" />
-            <element signature="e#39243#39244#0" expanded="false" />
-            <element signature="e#39336#39337#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -865,57 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3961">
           <caret line="256" column="0" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39347#0" expanded="false" />
-            <element signature="e#8008#8009#0" expanded="false" />
-            <element signature="e#8036#8037#0" expanded="false" />
-            <element signature="e#8248#8249#0" expanded="false" />
-            <element signature="e#8275#8276#0" expanded="false" />
-            <element signature="e#8748#8749#0" expanded="false" />
-            <element signature="e#8787#8788#0" expanded="false" />
-            <element signature="e#8938#8939#0" expanded="false" />
-            <element signature="e#8965#8966#0" expanded="false" />
-            <element signature="e#11209#11210#0" expanded="false" />
-            <element signature="e#11247#11248#0" expanded="false" />
-            <element signature="e#15878#15879#0" expanded="false" />
-            <element signature="e#15927#15928#0" expanded="false" />
-            <element signature="e#16099#16100#0" expanded="false" />
-            <element signature="e#16149#16150#0" expanded="false" />
-            <element signature="e#16416#16417#0" expanded="false" />
-            <element signature="e#16470#16471#0" expanded="false" />
-            <element signature="e#19921#19922#0" expanded="false" />
-            <element signature="e#19954#19955#0" expanded="false" />
-            <element signature="e#20484#20485#0" expanded="false" />
-            <element signature="e#20520#20521#0" expanded="false" />
-            <element signature="e#20770#20771#0" expanded="false" />
-            <element signature="e#20799#20800#0" expanded="false" />
-            <element signature="e#23214#23215#0" expanded="false" />
-            <element signature="e#23241#23242#0" expanded="false" />
-            <element signature="e#23699#23700#0" expanded="false" />
-            <element signature="e#23735#23736#0" expanded="false" />
-            <element signature="e#24161#24162#0" expanded="false" />
-            <element signature="e#24193#24194#0" expanded="false" />
-            <element signature="e#26756#26757#0" expanded="false" />
-            <element signature="e#26803#26804#0" expanded="false" />
-            <element signature="e#27125#27126#0" expanded="false" />
-            <element signature="e#27169#27170#0" expanded="false" />
-            <element signature="e#27499#27500#0" expanded="false" />
-            <element signature="e#27539#27540#0" expanded="false" />
-            <element signature="e#27577#27578#0" expanded="false" />
-            <element signature="e#27621#27622#0" expanded="false" />
-            <element signature="e#29442#29443#0" expanded="false" />
-            <element signature="e#29489#29490#0" expanded="false" />
-            <element signature="e#29728#29729#0" expanded="false" />
-            <element signature="e#29776#29777#0" expanded="false" />
-            <element signature="e#29802#29803#0" expanded="false" />
-            <element signature="e#29847#29848#0" expanded="false" />
-            <element signature="e#29878#29879#0" expanded="false" />
-            <element signature="e#29914#29915#0" expanded="false" />
-            <element signature="e#36042#36043#0" expanded="false" />
-            <element signature="e#36098#36099#0" expanded="false" />
-            <element signature="e#39243#39244#0" expanded="false" />
-            <element signature="e#39336#39337#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1078,57 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3961">
           <caret line="256" column="0" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39347#0" expanded="false" />
-            <element signature="e#8008#8009#0" expanded="false" />
-            <element signature="e#8036#8037#0" expanded="false" />
-            <element signature="e#8248#8249#0" expanded="false" />
-            <element signature="e#8275#8276#0" expanded="false" />
-            <element signature="e#8748#8749#0" expanded="false" />
-            <element signature="e#8787#8788#0" expanded="false" />
-            <element signature="e#8938#8939#0" expanded="false" />
-            <element signature="e#8965#8966#0" expanded="false" />
-            <element signature="e#11209#11210#0" expanded="false" />
-            <element signature="e#11247#11248#0" expanded="false" />
-            <element signature="e#15878#15879#0" expanded="false" />
-            <element signature="e#15927#15928#0" expanded="false" />
-            <element signature="e#16099#16100#0" expanded="false" />
-            <element signature="e#16149#16150#0" expanded="false" />
-            <element signature="e#16416#16417#0" expanded="false" />
-            <element signature="e#16470#16471#0" expanded="false" />
-            <element signature="e#19921#19922#0" expanded="false" />
-            <element signature="e#19954#19955#0" expanded="false" />
-            <element signature="e#20484#20485#0" expanded="false" />
-            <element signature="e#20520#20521#0" expanded="false" />
-            <element signature="e#20770#20771#0" expanded="false" />
-            <element signature="e#20799#20800#0" expanded="false" />
-            <element signature="e#23214#23215#0" expanded="false" />
-            <element signature="e#23241#23242#0" expanded="false" />
-            <element signature="e#23699#23700#0" expanded="false" />
-            <element signature="e#23735#23736#0" expanded="false" />
-            <element signature="e#24161#24162#0" expanded="false" />
-            <element signature="e#24193#24194#0" expanded="false" />
-            <element signature="e#26756#26757#0" expanded="false" />
-            <element signature="e#26803#26804#0" expanded="false" />
-            <element signature="e#27125#27126#0" expanded="false" />
-            <element signature="e#27169#27170#0" expanded="false" />
-            <element signature="e#27499#27500#0" expanded="false" />
-            <element signature="e#27539#27540#0" expanded="false" />
-            <element signature="e#27577#27578#0" expanded="false" />
-            <element signature="e#27621#27622#0" expanded="false" />
-            <element signature="e#29442#29443#0" expanded="false" />
-            <element signature="e#29489#29490#0" expanded="false" />
-            <element signature="e#29728#29729#0" expanded="false" />
-            <element signature="e#29776#29777#0" expanded="false" />
-            <element signature="e#29802#29803#0" expanded="false" />
-            <element signature="e#29847#29848#0" expanded="false" />
-            <element signature="e#29878#29879#0" expanded="false" />
-            <element signature="e#29914#29915#0" expanded="false" />
-            <element signature="e#36042#36043#0" expanded="false" />
-            <element signature="e#36098#36099#0" expanded="false" />
-            <element signature="e#39243#39244#0" expanded="false" />
-            <element signature="e#39336#39337#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1151,42 +1019,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agh/project/textParser/RomanToDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/agh/project/textParser/TextOutTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
+        <state relative-caret-position="442">
           <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agh/project/textParser/TextSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agh/project/textParser/ParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agh/project/textParser/RomanToDecimalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1199,34 +1035,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agh/project/textParser/ParseArgs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agh/project/textParser/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/agh/project/textParser/TextOut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
+        <state relative-caret-position="567">
           <caret line="80" column="42" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agh/project/textParser/TextSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/agh/project/textParser/ParseArgsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        <state relative-caret-position="425">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agh/project/textParser/ParseArgs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agh/project/textParser/ParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agh/project/textParser/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agh/project/textParser/RomanToDecimalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agh/project/textParser/RomanToDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           <folding />
         </state>
       </provider>
