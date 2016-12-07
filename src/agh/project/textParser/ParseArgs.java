@@ -19,7 +19,7 @@ public class ParseArgs extends TextSystem{
     */
 
     public boolean argTest(){
-        if(arguments.length != 2 || arguments.length != 3){
+        if(arguments.length != 2 && arguments.length != 3){
             throw new IllegalArgumentException("Incorrect numbers of arguments");
         }
         else{

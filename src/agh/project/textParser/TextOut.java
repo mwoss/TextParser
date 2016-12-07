@@ -64,6 +64,20 @@ public class TextOut implements ITextOut{
     }
 
     @Override
+    public void printResult(ParseArgs argParsing, TextOut out, String[] args) {
+        if(argParsing.getProcedure() == 1){
+            out.writeArticle(Integer.parseInt(args[1]));
+        }
+        else if(argParsing.getProcedure() == 3){
+            out.writeArticles(Integer.parseInt(args[1]),Integer.parseInt(args[2]));
+        }
+        else{
+            RomanToDecimal parseChapter = new RomanToDecimal();
+            out.writeChapter(parseChapter.romanToDecimal(args[1]));
+        }
+    }
+
+    @Override
     public void writeArticleToTxt(int a) {
 
     }

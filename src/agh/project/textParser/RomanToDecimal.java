@@ -4,7 +4,7 @@ package agh.project.textParser;
  * Created by Matthew on 2016-12-01.
  */
 public class RomanToDecimal {
-    public static void romanToDecimal(String romanNumber) {
+    public static int romanToDecimal(String romanNumber) {
         int decimal = 0;
         int lastNumber = 0;
         String romanNumeral = romanNumber.toUpperCase();
@@ -50,7 +50,7 @@ public class RomanToDecimal {
                     break;
             }
         }
-        System.out.println(decimal);
+        return decimal;
     }
 
     public static int processDecimal(int decimal, int lastNumber, int lastDecimal) {
