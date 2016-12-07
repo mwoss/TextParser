@@ -20,7 +20,7 @@ public class TextSystem {
                out.printResult(argParsing,out,args);
 
             }
-        }catch(FileNotFoundException x) {
+        }catch(FileNotFoundException | IllegalArgumentException x) {
             System.out.println(x.getMessage());
         }
     }

@@ -73,7 +73,10 @@ public class Parser {
                             if(s != parts[parts.length-1])
                                 builder.append(" ");
                         }
-                        newChapter.Articles.set(newChapter.Articles.size()-1,newChapter.Articles.getLast() +"\n" + builder.toString());
+                        if(parts.length == 1)
+                            newChapter.Articles.set(newChapter.Articles.size()-1,newChapter.Articles.getLast() + builder.toString());
+                        else
+                            newChapter.Articles.set(newChapter.Articles.size()-1,newChapter.Articles.getLast() +"\n" + builder.toString());
                         if(nextLine.endsWith("-")){
                             dashFlag = true;
                         }
