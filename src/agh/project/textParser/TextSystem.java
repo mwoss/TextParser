@@ -2,6 +2,7 @@ package agh.project.textParser;
 
 import java.io.FileNotFoundException;
 
+
 /**
  * Created by Matthew on 2016-11-30.
  */
@@ -19,10 +20,12 @@ public class TextSystem {
                TextOut out = new TextOut(parser);
                out.printResult(argParsing,out,args);
 
+
             }
         }catch(FileNotFoundException | IllegalArgumentException | IndexOutOfBoundsException x) {
             System.out.println(x.getMessage());
         }
+
     }
 
 }
