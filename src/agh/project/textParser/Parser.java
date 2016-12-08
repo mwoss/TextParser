@@ -13,9 +13,7 @@ public class Parser {
         this.fileToParse = inPut;
         this.chapters = null;
     }
-
-    int iter = 0;
-
+    // Should have splited parser to two methods. Maybe one day.
     public void Parse(){
 
         this.chapters = new LinkedList<Chapter>();
@@ -28,7 +26,6 @@ public class Parser {
         boolean dashFlag = false;
 
         while(this.fileToParse.inText.hasNext()){
-            iter++;
             nextLine = this.fileToParse.inText.nextLine();
             if(nextLine.matches("©Kancelaria Sejmu") || nextLine.matches("20..-..-..")) {
                 continue;

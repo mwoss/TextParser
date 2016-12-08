@@ -65,15 +65,28 @@ public class TextOut implements ITextOut{
 
     @Override
     public void printResult(ParseArgs argParsing, TextOut out, String[] args) {
+        int chapterNo = parsedText.chapters.size();
+        int articleNo = parsedText.chapters.getLast().lastArticle;
         if(argParsing.getProcedure() == 1){
-            out.writeArticle(Integer.parseInt(args[1]));
+            if(Integer.parseInt(args[1]) > 0 && Integer.parseInt(args[1]) <=articleNo )
+                out.writeArticle(Integer.parseInt(args[1]));
+            else
+                throw new IndexOutOfBoundsException("There is no article matching your preference");
+
         }
         else if(argParsing.getProcedure() == 3){
-            out.writeArticles(Integer.parseInt(args[1]),Integer.parseInt(args[2]));
+            if(Integer.parseInt(args[1]) > 0 && Integer.parseInt(args[2]) <= articleNo && Integer.parseInt(args[1]) < Integer.parseInt(args[2]))
+                out.writeArticles(Integer.parseInt(args[1]),Integer.parseInt(args[2]));
+            else
+                throw new IndexOutOfBoundsException("Range of articles that you input is invalid");
         }
         else{
             RomanToDecimal parseChapter = new RomanToDecimal();
-            out.writeChapter(parseChapter.romanToDecimal(args[1]));
+            if(parseChapter.romanToDecimal(args[1]) > 0 && parseChapter.romanToDecimal(args[1]) <= chapterNo)
+                out.writeChapter(parseChapter.romanToDecimal(args[1]));
+            else
+                throw new IndexOutOfBoundsException("There is no chapter matching your preference");
+
         }
     }
 

@@ -10,12 +10,18 @@ import static org.junit.Assert.*;
 public class RomanToDecimalTest {
     @Test
     public void romanToDecimal() throws Exception {
+        RomanToDecimal parse = new RomanToDecimal();
+        assertEquals(5,parse.romanToDecimal("V"));
+        assertEquals(2352,parse.romanToDecimal("MMCCCLII"));
+        assertEquals(597,parse.romanToDecimal("DXCVII"));
 
     }
 
     @Test
     public void processDecimal() throws Exception {
-        assertEquals(3, processDecimal(9,15,12));
+        RomanToDecimal parse = new RomanToDecimal();
+        assertEquals(3, parse.processDecimal(9,15,12));
+        assertEquals(29,parse.processDecimal(20,8,9));
 
     }
 
